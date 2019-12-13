@@ -8,7 +8,10 @@ import {
   Radio,
 } from 'antd';
 import './App.css';
-import Page from './components/page'
+// import Page from './pages/page'
+import Buttondemo from './components/button';
+import Icondemo from './components/icon';
+import Typography from './components/typography';
 
 
 moment.locale('en');
@@ -50,7 +53,12 @@ class App extends Component {
           </Radio.Group>
         </div>
         <ConfigProvider locale={locale}>
-            <Page key={locale ? locale.locale : 'en'} />
+              {/* <Page key={locale ? locale.locale : 'en'} /> */}
+              <div key={locale ? locale.locale : 'en'}>
+                <Buttondemo />
+                <Icondemo />
+                <Typography />
+              </div>
         </ConfigProvider>
       </div>
     );
