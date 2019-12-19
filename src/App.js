@@ -12,6 +12,8 @@ import './App.css';
 import Buttondemo from './components/button';
 import Icondemo from './components/icon';
 import Typography from './components/typography';
+import Breadcrumb from './components/breadcrumb';
+import Dropdown from './components/dropdown';
 
 
 moment.locale('en');
@@ -58,6 +60,8 @@ class App extends Component {
                 <Buttondemo />
                 <Icondemo />
                 <Typography />
+                <Breadcrumb />
+                <Dropdown />
               </div>
         </ConfigProvider>
       </div>
