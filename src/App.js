@@ -14,7 +14,10 @@ import Icondemo from './components/icon';
 import Typography from './components/typography';
 import Breadcrumb from './components/breadcrumb';
 import Dropdown from './components/dropdown';
-
+import Menu from './components/menu';
+import Pagination from './components/pagination';
+import Steps from './components/steps';
+import AutoComplete from './components/autoComplete';
 
 moment.locale('en');
 
@@ -62,6 +65,10 @@ class App extends Component {
                 <Typography />
                 <Breadcrumb />
                 <Dropdown />
+                <Menu />
+                <Pagination />
+                <Steps />
+                <AutoComplete />
               </div>
         </ConfigProvider>
       </div>
