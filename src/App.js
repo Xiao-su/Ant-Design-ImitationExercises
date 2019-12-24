@@ -18,6 +18,8 @@ import Menu from './components/menu';
 import Pagination from './components/pagination';
 import Steps from './components/steps';
 import AutoComplete from './components/autoComplete';
+import DatePicker from './components/datePicker';
+import Form from './components/form';
 
 moment.locale('en');
 
@@ -69,6 +71,8 @@ class App extends Component {
                 <Pagination />
                 <Steps />
                 <AutoComplete />
+                <DatePicker />
+                <Form />
               </div>
         </ConfigProvider>
       </div>
