@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   Form,
   Input,
@@ -74,7 +74,7 @@ const tailFormItemLayout = {
 };
 
 
-class RegistrationForm extends Component {
+class RegistrationForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 

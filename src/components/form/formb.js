@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
 
 const { Item } = Form;
@@ -14,7 +14,7 @@ const style = {
   }
 }
 
-class NormalLoginForm extends Component {
+class NormalLoginForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {  }
